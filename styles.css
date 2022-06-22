@@ -9,3 +9,7 @@ h2.blue {
 #h2-special {
     border: 2px solid green;
 }
+
+.contents-items a {
+    display: block;
+}
