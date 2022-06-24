@@ -10,6 +10,16 @@ h2.blue {
     border: 2px solid green;
 }
 
+#underlined-text {
+    border-bottom:1px dashed rgb(231, 50, 26);
+    }
+
 .contents-items a {
     display: block;
 }
+
+#framed-text {
+    border-width:3px;
+    border-style:double;
+    border-color:black;
+    }
