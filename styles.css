@@ -1,5 +1,10 @@
+h1 {
+    color: black;
+    font-family: Luminari, fantasy;
+}
 h2.red {
     color: red;
+    border-bottom:2px dashed rgb(231, 50, 26);
 }
 
 h2.blue {
@@ -11,7 +16,12 @@ h2.blue {
 }
 
 #underlined-text {
-    border-bottom:1px dashed rgb(231, 50, 26);
+    border-bottom:2px dashed rgb(231, 50, 26);
+    }
+
+span {
+    border:1px doucle red;
+    padding:3px;
     }
 
 .contents-items a {
