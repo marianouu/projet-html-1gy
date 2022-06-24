@@ -1,18 +1,23 @@
 h1 {
-    color: black;
+    color: #FAFAFA;
     font-family: Luminari, fantasy;
+    border-width:3px;
+    border-style:groove;
+    border-color:#FE4B4B;
+    background-color: #F79F95;
 }
-h2.red {
-    color: red;
-    border-bottom:2px dashed rgb(231, 50, 26);
+h2.clair {
+    color: #F79F95;
+    border-bottom:2px dashed #FBBFB8;
 }
 
-h2.blue {
-    color: blue;
+h2.foncé {
+    color: #F36D8F;
+    border-bottom:2px dashed #F36D8F;
 }
 
-#h2-special {
-    border: 2px solid green;
+h2.special {
+    color: #F38071;
 }
 
 #underlined-text {
@@ -20,7 +25,7 @@ h2.blue {
     }
 
 span {
-    border:1px doucle red;
+    border:1px double red;
     padding:3px;
     }
 
@@ -33,3 +38,6 @@ span {
     border-style:double;
     border-color:black;
     }
+img {
+    border-radius: 40px;
+}
